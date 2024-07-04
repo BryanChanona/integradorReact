@@ -1,0 +1,90 @@
+
+.contentForm {
+    margin-left: 130px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82%;
+    height: 90vh;
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Posicionamiento relativo para el formulario */
+}
+
+.form {
+    background-color: #fff; /* Color del formulario */
+    width: 30%; /* Ajuste del ancho del formulario */
+    max-width: 600px; /* Ancho máximo del formulario */
+    height: 70%; /* Ajuste de la altura del formulario */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* Posicionamiento absoluto */
+    right: 90px; /* Ajusta este valor según sea necesario */
+    gap: 40px;
+    transition: transform 0.3s ease; /* Transición suave */
+    border-radius: 25px;
+}
+
+.form:hover {
+    transform: scale(1.05); /* Escala el formulario al pasar el cursor */
+}
+
+.user {
+    margin-top: -100px; /* Ajusta este valor según sea necesario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user img {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: 100px; /* Ajusta el tamaño de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen se ajuste dentro del contenedor */
+}
+
+.imgLogo {
+    position: absolute;
+    top: 200px; /* Ajusta este valor según sea necesario */
+    left: 100px; /* Mueve el logo a la izquierda */
+    width: 100px; /* Ajusta el tamaño del logo */
+    max-width: 500px; /* Ajusta el tamaño máximo del logo */
+}
+
+.imgLogo img {
+    width: 400px; /* Asegura que la imagen se ajuste al contenedor */
+}
+
+.circle {
+    position: absolute;
+    bottom: -100px;
+    left: calc(3% - 220px);
+    width: 420px;
+    height: 350px;
+    background-color: #41842D;
+    border-radius: 50%;
+}
+
+.button.login {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.button.login:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor */
+}
+.contenidoRegistro{
+    display: flex;
+    flex-direction: arrow;
+
+}

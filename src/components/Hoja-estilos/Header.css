@@ -1,0 +1,42 @@
+.contentHeader {
+    background-color: white;
+    display: flex;
+    justify-content: space-between; /* Ajusta los elementos al principio y al final del contenedor */
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    padding: 10px 20px; /* Añade algo de padding alrededor del contenido */
+    position: relative;
+}
+
+.imgMenu {
+    width: 30px; /* Ajusta el tamaño de la imagen del menú */
+    height: auto; /* Mantiene la proporción de la imagen */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.imgLogo {
+    width: 150px; /* Ajusta el tamaño de la imagen del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.menuOptions {
+    position: absolute;
+    top: 50px; /* Justo debajo del header */
+    left: 10px; /* Ajusta según sea necesario */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.menuOptions a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+    transition: background-color 0.3s;
+}
+
+.menuOptions a:hover {
+    background-color: #f0f0f0;
+}
