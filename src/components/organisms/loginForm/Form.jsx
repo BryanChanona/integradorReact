@@ -4,7 +4,7 @@ import Input from "../../atoms/Input/Input.jsx";
 import Button from "../../atoms/Button/Button.jsx";
 import '../../Hoja-estilos/Form.css';
 import Parrafo from "../../atoms/Parrafo/Parrafo.jsx";
-import ElementA from "../../ElementA/ElementA.jsx";
+import ElementA from '../../atoms/ElementA/ElementA.jsx'
 
 const Form = ({ imgSrc, imgAlt, placeholders, buttonText, handleClick, parrafoText, linkHref, linkText }) => {
     return (

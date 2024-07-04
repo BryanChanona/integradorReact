@@ -1,0 +1,12 @@
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Ajusta el espacio entre las imágenes */
+    overflow-x: scroll; /* Permite desplazamiento horizontal si hay muchas imágenes */
+    padding: 20px;
+}
+.image-item {
+    max-width: 300px; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para las imágenes */
+}
