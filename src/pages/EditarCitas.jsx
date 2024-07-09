@@ -1,7 +1,7 @@
 import Header from "../components/molecules/Header/Header";
 import Form from "../components/organisms/loginForm/Form";
-const AgendarCita=()=>{
 
+const EditarCitas =()=>{
     return(
         <>
         <Header/>
@@ -9,12 +9,10 @@ const AgendarCita=()=>{
             imgSrc="src/assets/ImageResources/cita.png"
             imgAlt="Imagen de un usuario"
             placeholders={["Nombre del paciente", "Fecha","Hora"]}
-            buttonText="Agendar cita"
+            buttonText="Editar"
         />
-        
         </>
-
 
     );
 }
-export default AgendarCita;
+export default EditarCitas; 

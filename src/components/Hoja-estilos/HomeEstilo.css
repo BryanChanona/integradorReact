@@ -1,12 +1,22 @@
+/* Container for images */
 .image-container {
     display: flex;
-    justify-content: space-between; /* Ajusta el espacio entre las imágenes */
-    overflow-x: scroll; /* Permite desplazamiento horizontal si hay muchas imágenes */
+    justify-content: space-between; /* Adjusts space between images */
+    overflow-x: scroll; /* Allows horizontal scrolling if there are many images */
     padding: 20px;
 }
+
+/* Individual image styling */
 .image-item {
-    max-width: 300px; /* Ajusta el tamaño máximo de las imágenes */
+    max-width: 300px; /* Adjusts the maximum size of images */
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para las imágenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for images */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for images */
+.image-item:hover {
+    transform: translateY(-10px); /* Lifts the image on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Increases shadow on hover */
 }
